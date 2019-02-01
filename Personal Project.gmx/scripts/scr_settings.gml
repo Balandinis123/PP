@@ -8,17 +8,11 @@ switch (mpos)
     
     case 1:
     {
-        scr_loadgame();
-        break;
-    } 
-    
-    case 2:
-    {
         room_goto(rm_settings);
         break;    
         
     }        
-    case 3:
+    case 2:
     {
         game_end();
         break;
